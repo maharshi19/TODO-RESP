@@ -1,0 +1,173 @@
+.page1 {
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .page3 {
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .page3::before,.page3::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid grey;
+    margin: 8px;
+  }
+  
+  .resp1 {
+    display: none;
+  }
+  
+  .button1 {
+    margin: 16px 0px 32px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+  }
+  
+  .icon1 {
+    color: orangered;
+    margin-right: 4px;
+  }
+  
+  .card1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card2 {
+    border: 1px solid orangered;
+    border-radius: 5px;
+    min-width: 350px;
+    height: 320px;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .card4 {
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: large;
+    color: orangered;
+    margin-left: 25%;
+    text-align: left;
+  }
+  
+  .card6 {
+    margin-top: 32px;
+    color: orangered;
+    font-weight: bolder;
+    text-decoration: line-through;
+    margin-left: 25%;
+    text-align: left;
+  }
+  
+  .card7{
+    display: flex;
+    margin-top: 16px;
+    color: black;
+    margin-left: 18%;
+    font-weight: bolder;
+  }
+  
+  .card8 {
+    margin-right: 8px;
+  }
+  
+  .card9 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    color: orangered;
+  }
+  
+  @media only screen and (max-device-width: 480px) {
+    .page1 {
+      justify-content: center;
+      margin-top: 15%;
+      margin-bottom: 15%;
+      margin-left: 2%;
+      margin-right: 2%;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 100vh;
+    }
+  
+    .page2 {
+      height: 100%;
+    }
+    .page3::before,
+    .page3::after {
+      display: none;
+    }
+  
+    .page3 {
+      font-size: 96px;
+      margin: 8px 8px 24px 08px;
+    }
+  
+    .button1 {
+      display: none;
+    }
+  
+    .resp1 {
+      padding-right: 5px;
+      display: flex;
+    }
+  
+    .card1 {
+      height: 80%;
+    }
+  
+    .card2 {
+      width: 80%;
+      height: 90%;
+      display: flex;
+      border: 1px solid orangered;
+      border-radius: 22px;
+      box-shadow: 16px 16px 16px black;
+      text-align: left;
+      margin: 32px;
+    }
+  
+    .card3 {
+      width: 100%;
+    }
+  
+    .card4 {
+      font-size: 64px;
+    }
+  
+    .card5 {
+      border-top: 1px solid #686767;
+    }
+  
+    .card6,.card7 {
+      font-size: 48px;
+    }
+  
+    .card8 {
+      margin-top: 12px;
+      margin-right: 16px;
+      width: 48px;
+      height: 48px;
+    }
+  
+    .card9 {
+      font-size: 45px;
+    }
+  }
+  

@@ -1,0 +1,179 @@
+.title1 {
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .title2 {
+    min-height: 750px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+  
+  .title4 {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: sans-serif;
+  }
+  
+  .title5 {
+    font-size: 40px;
+    font-weight: lighter;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  .title6 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: grey;
+    font-weight: 600;
+    padding-right: 16px;
+  }
+  .ic{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    color: orangered;
+  }
+  
+  .icon1 {
+    color: orangered;
+    margin-right: 8px;
+  }
+  
+  .card1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .card2 {
+    border: 1px solid orangered;
+    border-radius: 6px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  
+  .card3 {
+    text-decoration: none;
+  }
+  
+  .card4 {
+    margin-top: 24px;
+    font-weight: normal;
+    font-size: large;
+    color:lightsalmon;
+    margin-left: 25%;
+    text-align: left;
+  }
+  
+  .card5 {
+    margin-top: 32px;
+    color:red;
+    font-weight: bolder;
+    text-decoration: line-through;
+    font-weight:3px;
+    margin-left: 25%;
+    text-align: left;
+  }
+  
+  .card6 {
+    display: flex;
+    margin-top: 16px;
+    color: black;
+    font-weight: 500px;
+  }
+  
+  .card7 {
+    margin-right: 8px;
+  }
+  
+  .card8 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    color: orangered
+  }
+  
+  @media only screen and (max-device-width: 480px) {
+    .title1 {
+      margin-top: 5%;
+      margin-bottom: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .title3{
+      margin-bottom: 80px;
+    }
+  
+    .title4 {
+      font-size: 135px;
+    }
+    .title5 {
+      font-size: 120px;
+      font-weight: lighter;
+      color: grey;
+      font-family: Arial, Helvetica, sans-serif
+    }
+  
+    .title7,.card5,.card6,.ic,hr {
+      display: none;
+    }
+    .title6{
+      font-size: 5rem;
+    }
+
+  
+    .icon1 {
+      color: orangered;
+      margin-right: 8px;
+    }
+  
+    .card1 {
+      flex-direction: column;
+    }
+  
+    .card2 {
+      display: flex;
+      width: 90%;
+      height: 192px;
+      border: 1px lightsalmon;
+      border-radius: 22px;
+      box-shadow: 16px 16px 16px black;
+      text-align: left;
+      margin: 32px;
+    }
+  
+    .card4 {
+      font-size: 56px;
+      margin-left: 16px;
+      margin-top: 16px;
+      color: #c1b5b3;      ;
+    }
+  }
+  
